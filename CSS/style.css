@@ -1,0 +1,45 @@
+* {
+   font-family: sans-serif;
+}
+
+/* Type-selektor */
+
+p {
+    font-size: 16px;
+}
+
+/* Pseudo-klasse */
+
+article:first-child{
+    background-color: beige;
+}
+
+/* ID-selektor */
+
+.siste-artikkel {
+    background-color: bisque; 
+}
+
+/* Klasse-selektor */
+
+#midt-artikkel {
+    background-color: antiquewhite;
+}
+
+/* Attributt-selektor */
+
+input[type="password"]{
+    boarder: 2px red solid;
+    boarder-radius: 8px;  
+}
+
+label{
+    font_weight: bold; 
+}
+
+
+.bigger-font{
+    font-size: 30px; 
+    fontweight: bold; 
+    color: blue; 
+}
