@@ -1,0 +1,36 @@
+.box1{
+    background-color: cadetblue;
+    opacity: 0.5;
+    
+    /* Teksten i boksen ble "faded" da jeg la til opacity 0.5 */
+}
+
+.box2{
+    background-color: #ff5733;
+    font-size: 1rem; 
+    background-image: url(https://picsum.photos/400/200);
+    background-size:contain; 
+
+    /* Background-size: Cover gjorde at bildet dekket hele boksen, mens Contain la flere bilder inn i boksen.  */
+}
+
+.box3{
+    background-color: rgb(255, 0, 34);
+    line-height: 1.6; 
+    text-transform: uppercase; 
+}
+
+body{
+    font-family: sans-serif, Arial;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold; 
+    color: hsl(11, 100%, 60%);
+    text-align: center; 
+}
+
+a{
+    text-decoration: none;
+}
