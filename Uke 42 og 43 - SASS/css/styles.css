@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Extension */
-.flex-column, .sidefot, .hamburger, .toppheader {
+.flex-column, .sidefot, .hamburger {
   display: flex;
   flex-direction: column;
 }
@@ -35,6 +35,8 @@ a {
 
 /* Toppheader */
 .toppheader {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 0.75rem;
   padding: 1rem;
@@ -92,8 +94,8 @@ a {
   justify-content: center;
   gap: 0.5rem 1rem;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  padding: 3rem;
+  margin: 2rem;
 }
 
 .hovednav a {
@@ -104,8 +106,8 @@ a {
 
 /* Hero */
 .hero {
-  background-color: #2b2d42;
-  color: #ffffff;
+  background-color: red;
+  color: white;
   text-align: center;
   padding: 3rem 1rem;
 }
@@ -135,8 +137,8 @@ a {
 /* Innhold */
 main {
   max-width: 1100px;
-  margin: 0 auto;
   padding: 0 1rem;
+  margin: 2rem;
 }
 
 main section {
@@ -187,8 +189,7 @@ main h2 {
 .om-oss {
   display: grid;
   grid-template-columns: 1fr;
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
+  column-gap: 2.5rem;
   align-items: start;
 }
 
